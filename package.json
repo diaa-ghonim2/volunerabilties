@@ -1,0 +1,23 @@
+{
+  "name": "temp_patcher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "patch-package"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "patch-package": "^6.4.7",
+    "qs": "^6.11.0",
+    "react-devtools-core": "^4.24.7"
+  },
+  "description": "",
+  "overrides": {
+    "react-devtools-core": {
+      "shell-quote": "1.7.3"
+    }
+  }
+}
